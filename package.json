@@ -1,6 +1,6 @@
 {
   "name": "@agillic/agillic-prop-types",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "The prop types of Agillic",
   "main": "index.js",
   "author": "Zivile Utkeviciute <zivile.utkeviciute@agillic.com>",
@@ -35,7 +35,7 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "lint": "node ./node_modules/eslint/bin/eslint.js index.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js src/",
     "prepush": "npm run lint"
   }
 }
