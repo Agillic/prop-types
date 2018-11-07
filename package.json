@@ -1,6 +1,6 @@
 {
   "name": "@agillic/prop-types",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The prop types of Agillic",
   "main": "index.js",
   "author": "Zivile Utkeviciute <zivile.utkeviciute@agillic.com>",
