@@ -23,4 +23,4 @@ export {
   requiredBy
 }
 
-export default {propTypesValidators}
+export default propTypesValidators
