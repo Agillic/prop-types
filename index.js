@@ -14,6 +14,13 @@ const propTypesValidators = {
   requiredBy
 }
 
-export {propTypesValidators}
+export {
+  differentFrom,
+  forbiddenBy,
+  greaterThan,
+  minimumLength,
+  notOnlyWhiteSpace,
+  requiredBy
+}
 
 export default {propTypesValidators}
