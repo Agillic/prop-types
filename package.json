@@ -1,8 +1,8 @@
 {
   "name": "@agillic/prop-types",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The prop types of Agillic",
-  "main": "index.js",
+  "main": "build/index.js",
   "author": "Zivile Utkeviciute <zivile.utkeviciute@agillic.com>",
   "contributors": [
     "Bence A. Toth <bence.toth@agillic.com>",
@@ -21,10 +21,10 @@
     "LICENSE",
     "README.MD",
     "CHANGELOG.MD",
-    "index.js",
-    "src/"
+    "build/"
   ],
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
@@ -49,6 +49,8 @@
     "regenerator-runtime": "^0.12.1"
   },
   "scripts": {
+    "build": "babel src -d build",
+    "build:watch": "babel src -w -d build",
     "test": "jest --watch",
     "test:run": "jest",
     "test:coverage": "jest --coverage",
