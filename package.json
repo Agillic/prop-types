@@ -1,17 +1,19 @@
 {
-  "name": "@agillic/agillic-prop-types",
-  "version": "0.0.3",
+  "name": "@agillic/prop-types",
+  "version": "1.0.0",
   "description": "The prop types of Agillic",
   "main": "index.js",
   "author": "Zivile Utkeviciute <zivile.utkeviciute@agillic.com>",
   "contributors": [
-    "Bence A. Toth <bence.toth@agillic.com>"
+    "Bence A. Toth <bence.toth@agillic.com>",
+    "Krzysztof Czurylo <krzysztof.czurylo@agillic.com>"
   ],
   "homepage": "https://gitlab.agillic.net/frontend/open-source/agillic-prop-types",
   "repository": {
     "type": "git",
     "url": "git@gitlab.agillic.net:frontend/open-source/agillic-prop-types.git"
   },
+  "license": "GPL-3.0-only",
   "engines": {
     "node": ">=8.9.4"
   },
