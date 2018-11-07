@@ -19,6 +19,7 @@ test:
     - npm ci
   script:
     - npm run lint
+    - npm run test:coverage
   except:
     - master
     - develop

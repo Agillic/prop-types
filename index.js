@@ -5,7 +5,7 @@ import minimumLength from './src/minimumLength'
 import notOnlyWhiteSpace from './src/notOnlyWhiteSpace'
 import requiredBy from './src/requiredBy'
 
-export {
+const propTypesValidators = {
   differentFrom,
   forbiddenBy,
   greaterThan,
@@ -13,3 +13,7 @@ export {
   notOnlyWhiteSpace,
   requiredBy
 }
+
+export {propTypesValidators}
+
+export default {propTypesValidators}
