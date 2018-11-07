@@ -67,6 +67,7 @@
     "navigator": false,
     "URL": false,
     "window": false,
-    "describe": false
+    "describe": false,
+    "expect": false
   }
 }
