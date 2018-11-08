@@ -1,4 +1,4 @@
-# 1.0.5 (November 8th, 2018)
+# 1.0.6 (November 8th, 2018)
 
 Release of the first public version of Agillic PropTypes!
 
