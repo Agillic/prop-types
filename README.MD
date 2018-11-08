@@ -122,6 +122,13 @@ MyComponent.propTypes = {
 
 This will return a `username should not contain only whitespace in MyComponent` in case `username` is only white space.
 
+## Scripts
+
+- `npm run build:watch` will transpile all the sources on file save,
+- `npm test` will run tests in watch mode,
+- `npm run test:coverage` will run tests and report coverage statistics,
+- `npm run lint` will lint the source files.
+
 ## See also
 Agillic PropTypes work great in combination with [the original React PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html), as well as [the amazing extension created by AirBnB](https://github.com/airbnb/prop-types)
 
