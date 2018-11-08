@@ -116,7 +116,7 @@ This will return a `username\'s length has to be at least 5 in MyComponent` `Typ
 
 ```javascript
 MyComponent.propTypes = {
-  username: notOnlyWhiteSpace()
+  username: notOnlyWhiteSpace
 }
 ```
 
