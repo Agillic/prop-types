@@ -4,5 +4,5 @@ npm-debug.log*
 /.idea
 *.bat
 *css
-.coverage
+coverage
 /build
