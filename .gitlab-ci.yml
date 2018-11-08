@@ -5,7 +5,7 @@ stages:
 
 variables:
   DOCKER_DRIVER: overlay2
-  npm_config_cache: /builds/frontend/open-source/agillic-prop-types/.npm
+  npm_config_cache: /builds/frontend/open-source/prop-types/.npm
 
 cache:
   key: ${CI_COMMIT_REF_SLUG}
