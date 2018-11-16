@@ -1,3 +1,16 @@
+<p align="center">
+    <img src="https://www.agillic.com/wp-content/uploads/2016/02/Logo.svg"
+        height="170">
+</p>
+
+<p align="center">
+  <a href="https://gitlab.com/agillic-ci/prop-types/commits/master"><img alt="pipeline status" src="https://gitlab.com/agillic-ci/prop-types/badges/master/pipeline.svg" /></a>
+</p>
+<p align="center">
+  <a href="https://gitlab.com/agillic-ci/prop-types/commits/master"><img alt="coverage report" src="https://gitlab.com/agillic-ci/prop-types/badges/master/coverage.svg" /></a>
+</p>
+
+
 # Agillic Prop Types 
 
 Enhance your React PropTypes validators using these custom ones!
