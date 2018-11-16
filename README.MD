@@ -4,10 +4,10 @@
 </p>
 
 <p align="center">
-  <a href="https://gitlab.com/agillic-ci/prop-types/commits/develop"><img alt="pipeline status" src="https://gitlab.com/agillic-ci/prop-types/badges/develop/pipeline.svg" /></a>
+  <a href="https://gitlab.com/agillic-ci/prop-types/commits/master"><img alt="pipeline status" src="https://gitlab.com/agillic-ci/prop-types/badges/master/pipeline.svg" /></a>
 </p>
 <p align="center">
-  <a href="https://gitlab.com/agillic-ci/prop-types/commits/develop"><img alt="coverage report" src="https://gitlab.com/agillic-ci/prop-types/badges/develop/coverage.svg" /></a>
+  <a href="https://gitlab.com/agillic-ci/prop-types/commits/master"><img alt="coverage report" src="https://gitlab.com/agillic-ci/prop-types/badges/master/coverage.svg" /></a>
 </p>
 
 
