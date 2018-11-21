@@ -1,26 +1,3 @@
-import differentFrom from './differentFrom'
-import forbiddenBy from './forbiddenBy'
-import greaterThan from './greaterThan'
-import minimumLength from './minimumLength'
-import notOnlyWhiteSpace from './notOnlyWhiteSpace'
-import requiredBy from './requiredBy'
+// This could have been solved with dynamic imports, however using require is more readable
 
-const propTypesValidators = {
-  differentFrom,
-  forbiddenBy,
-  greaterThan,
-  minimumLength,
-  notOnlyWhiteSpace,
-  requiredBy
-}
-
-export {
-  differentFrom,
-  forbiddenBy,
-  greaterThan,
-  minimumLength,
-  notOnlyWhiteSpace,
-  requiredBy
-}
-
-export default propTypesValidators
+module.exports = process.env.NODE_ENV === 'production' ? require('./mocks') : require('./validators')
