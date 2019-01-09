@@ -11,7 +11,7 @@
 </p>
 
 
-# Agillic Prop Types 
+# Agillic Prop Types
 
 Enhance your React PropTypes validators using these custom ones!
 Made with :heart: by Agillic
@@ -58,6 +58,7 @@ Currently supported validators:
 - `greaterThan`
 - `minimumLength`
 - `notOnlyWhiteSpace`
+- `componentWithProps`
 
 ### differentFrom
 
@@ -135,6 +136,28 @@ MyComponent.propTypes = {
 
 This will return a `username should not contain only whitespace in MyComponent` in case `username` is only white space.
 
+### componentWithProps
+
+`componentWithProps` is typically used on the `children` prop as a means of performing an ordinary prop types check on nested components
+
+An example use-case would be a child component which is being stripped of its props in the parent component. Will run validation for all child components.
+
+*NB:* Utilizing the RORO pattern, `componentWithProps` only takes one parameter with two properties:
+- `propTypes`: the prop types
+- `checkPropTypes`: the original `checkPropTypes` fn from facebook's [prop-types](https://github.com/facebook/prop-types) project
+
+```javascript
+MyComponent.propTypes = {
+  children: componentWithProps({
+    propTypes: {
+      firstName: PropTypes.string,
+      isAdmin: PropTypes.bool
+    },
+    checkPropTypes
+  })
+}
+```
+
 ## Scripts
 
 - `npm run build:watch` will transpile all the sources on file save,
@@ -150,7 +173,7 @@ Check out the following example:
 ```javascript
 MyComponent.propTypes = {
   firstName: PropTypes.string,
-  lastName: and([ 
+  lastName: and([
     PropTypes.string,
     requiredBy('firstName')
   ])
@@ -165,11 +188,10 @@ Chaining `isRequired` in Agillic PropTypes validators is not supported. If you w
 
 ```javascript
 MyComponent.propTypes = {
-  secretCode: and([ 
+  secretCode: and([
     PropTypes.string.isRequired,
     notOnlyWhiteSpace()
   ])
 }
 
 ```
-
