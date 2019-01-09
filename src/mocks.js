@@ -5,6 +5,7 @@ noOp.isRequired = noOp
 const noOpThunk = () => noOp
 
 const propTypesValidatorsMocks = {
+  componentWithProps: noOpThunk,
   differentFrom: noOpThunk,
   forbiddenBy: noOpThunk,
   greaterThan: noOpThunk,
@@ -14,6 +15,7 @@ const propTypesValidatorsMocks = {
 }
 
 export {
+  noOpThunk as componentWithProps,
   noOpThunk as differentFrom,
   noOpThunk as forbiddenBy,
   noOpThunk as greaterThan,
