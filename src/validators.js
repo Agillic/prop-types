@@ -1,3 +1,4 @@
+import componentWithProps from './componentWithProps'
 import differentFrom from './differentFrom'
 import forbiddenBy from './forbiddenBy'
 import greaterThan from './greaterThan'
@@ -6,6 +7,7 @@ import notOnlyWhiteSpace from './notOnlyWhiteSpace'
 import requiredBy from './requiredBy'
 
 const propTypesValidators = {
+  componentWithProps,
   differentFrom,
   forbiddenBy,
   greaterThan,
@@ -15,6 +17,7 @@ const propTypesValidators = {
 }
 
 export {
+  componentWithProps,
   differentFrom,
   forbiddenBy,
   greaterThan,
