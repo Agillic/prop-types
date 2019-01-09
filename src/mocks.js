@@ -25,4 +25,3 @@ export {
 }
 
 export default propTypesValidatorsMocks
-
